@@ -27,7 +27,8 @@ This analysis explored a dataset of boxing matches to identify trends and relati
 
 Heavier weight classes exhibited a higher prevalence of stoppages (e.g., TKO, KO) as the primary win method, while lighter and middleweight classes showed a greater reliance on decisions (e.g., UD, PTS).
 
-![Heatmap showing win methods by weight class](images/plot1AOW.png)
+![Heatmap showing win methods by weight class](images/plot1AOW.png) 
+[Heatmap visualizing win method percentages across boxing weight classes]
 
 The heatmap above visualizes this trend, showing higher percentages (darker colors) for TKO and KO in divisions like Heavyweight and Cruiserweight. This likely reflects the increased power potential in these classes leading to more conclusive finishes. Conversely, Unanimous Decisions (UD) and Points (PTS) decisions form a larger share of outcomes in divisions from Welterweight down, suggesting these fights more frequently go the distance, possibly indicating more tactical battles or relatively smaller power differences requiring judges' scoring.
 
@@ -36,6 +37,7 @@ The heatmap above visualizes this trend, showing higher percentages (darker colo
 While stance (Orthodox vs. Southpaw) is often considered a significant factor, this analysis revealed minimal difference in the outcome distribution based on Fighter A's stance within this dataset.
 
 ![Bar chart showing outcome distribution by stance](images/plot5AOW.png)
+![Grouped bar chart comparing outcome distribution percentages for Orthodox vs Southpaw stances (Fighter A)]
 
 As the bar chart illustrates, both Orthodox and Southpaw stances for Fighter A resulted in very similar outcome percentages (approx. 87-89% Win A, 7-8% Win B, 4-5% Draw). While this suggests stance alone had minimal impact *in this view*, this finding must be interpreted with caution. The dataset exhibits a strong skew towards 'Win_A' results overall (~83%), which likely overshadows subtle stance effects and heavily influences these observed percentages. Therefore, while other factors like skill are undoubtedly crucial, this analysis cannot definitively conclude on stance impact due to the underlying data structure and potential biases in how fighters were listed.
 
@@ -44,6 +46,7 @@ As the bar chart illustrates, both Orthodox and Southpaw stances for Fighter A r
 Analysis of fighter age indicated a trend where winners (specifically Fighter A in this analysis) were, on average, slightly younger than their opponents (represented by Fighter A's age when Fighter B wins).
 
 ![Histogram comparing age distribution for winners vs losers](images/plot4AOW.png)
+![Overlapping density plots comparing age distribution of Fighter A when winning vs losing]
 
 The overlapping density plots show that the age distribution for Fighter A when winning (blue) peaks slightly earlier (early 20s) compared to when Fighter B wins (red peak slightly later). This aligns with the calculated average ages and suggests a potential advantage for fighters in their physical prime (early-to-mid 20s being a peak activity period). However, the significant overlap and presence of older fighters in both distributions highlight that while youth may offer an edge, experience remains a key factor, indicating a complex interplay between age, athleticism, and experience.
 
